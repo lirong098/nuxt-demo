@@ -4,6 +4,12 @@ export default {
     /*
     ** Headers of the page
     */
+    server: {
+        host: '0.0.0.0', // default: localhost,
+        timing: {
+            total: true
+        }
+    },
     head: {
         title: process.env.npm_package_name || '',
         meta: [
