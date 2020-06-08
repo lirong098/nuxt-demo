@@ -14,9 +14,8 @@
     "axios": "^0.16.2",
     "less": "^3.11.1",
     "less-loader": "^6.1.0",
-    "nuxt": "^2.0.0"
-  },
-  "devDependencies": {
+    "nuxt": "^2.0.0",
     "@nuxtjs/style-resources": "^1.0.0"
-  }
+  },
+  "devDependencies": {}
 }
