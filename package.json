@@ -7,15 +7,15 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "pm2 start nuxt --name nuxt-demo -- start -i 0 --watch",
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
     "axios": "^0.18.1",
     "less": "^3.11.1",
     "less-loader": "^6.1.0",
-    "nuxt": "^2.0.0",
-    "@nuxtjs/style-resources": "^1.0.0"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {}
 }
