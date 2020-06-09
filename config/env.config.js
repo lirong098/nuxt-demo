@@ -12,12 +12,12 @@ const base = {
 }
 const ENV_CONFIG = {
     DEV: {
-        apiRoot: '', // 测试环境接口
+        apiRoot: 'https://api-dev..com/', // 测试环境接口
         ...base
     },
     // 线上环境
     PROD: {
-        apiRoot: '', // 接口域名
+        apiRoot: 'https://api.com/', // 接口域名
         ...base
     }
 }
