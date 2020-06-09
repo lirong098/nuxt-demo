@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "pm2 start nuxt --name nuxt-demo -- start -i 0 --watch",
+    "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
