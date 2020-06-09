@@ -12,12 +12,12 @@ const base = {
 }
 const ENV_CONFIG = {
     DEV: {
-        apiRoot: 'https://comm-api-qa.peilian.com/', // 测试环境接口
+        apiRoot: '', // 测试环境接口
         ...base
     },
     // 线上环境
     PROD: {
-        apiRoot: 'https://comm-api.peilian.com/', // 接口域名
+        apiRoot: '', // 接口域名
         ...base
     }
 }
