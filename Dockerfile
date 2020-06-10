@@ -9,8 +9,6 @@ RUN mkdir -p /app
 COPY . /app
 WORKDIR /app
 EXPOSE 3000
-#If the environment in China build please open the following comments
-#如果在中国环境下构建请把下面注释打开
-RUN npm config set registry https://registry.npm.taobao.org && npm install -g pm2 && npm install
-RUN npm run build
+# 在中国环境下，为了提高npm下载包速度，设置镜像源 https://registry.npm.taobao.org 非中国环境下可删掉
+RUN npm config set registry https://registry.npm.taobao.org && npm install -g pm2 && npm install && npm run build
 CMD ["npm", "start"]
