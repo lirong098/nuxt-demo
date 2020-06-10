@@ -201,6 +201,8 @@
 // import serves from '~plugins/serves.js'
 // import axios from 'axios'
 // console.log('process',process.browser)
+// import {payDetail} from '@/api/api.server.js' 
+// console.log('payDetail', payDetail)
 let progressBar,
     tabMusic
 if (process.browser) {
