@@ -8,7 +8,7 @@ import axios from 'axios'
  */
 axios.defaults.timeout = 10000;
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8'
-axios.defaults.baseURL = 'https://comm-api-qa.peilian.com/'
+axios.defaults.baseURL = 'https://api.com/'
 //POST传参序列化
 axios.interceptors.request.use((config) => {
     return config
